@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "archives.tater.defilebestby.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "FuneralInkBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

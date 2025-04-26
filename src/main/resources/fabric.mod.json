@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "defilebestby",
+	"version": "${version}",
+	"name": "Defile: Best By",
+	"description": "Makes funeral ink expire over time",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://github.com/ThePotatoArchivist/DefileBestBy",
+		"sources": "https://github.com/ThePotatoArchivist/DefileBestBy"
+	},
+	"license": "MIT",
+	"icon": "assets/defilebestby/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"defilebestby.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"defile": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
