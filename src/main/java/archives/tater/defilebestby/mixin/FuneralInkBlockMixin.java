@@ -27,7 +27,7 @@ public abstract class FuneralInkBlockMixin extends MultifaceGrowthBlock {
 	public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
 		super.randomTick(state, world, pos, random);
 		if (DefileComponents.BLACK_RAIN.get(world).isRaining()) return;
-		if (world.hasRain(pos) || Arrays.stream(DIRECTIONS).noneMatch(direction -> world.getBlockState(pos.offset(direction)).isOf(this)) || random.nextFloat() < 0.1) {
+		if (world.hasRain(pos) || Arrays.stream(DIRECTIONS).noneMatch(direction -> world.getBlockState(pos.offset(direction)).isOf(this)) || random.nextFloat() < 0.15) {
 			world.breakBlock(pos, false);
 		}
 	}
